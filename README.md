@@ -1,26 +1,32 @@
-🔒 Encryptor-LOL
+# 🔒 Encryptor-LOL
+Encryptor-LOL is a simple, fun command-line tool written in Rust that encrypts your messages using three different encryption methods: Caesar Cipher, XOR Cipher, and AES-128 (CBC Mode). 🔐✨
 
-Encryptor-LOL is a fun and simple command-line tool written in Rust that automatically encrypts your messages using three different encryption methods: Caesar Cipher, XOR Cipher, and AES-128 (CBC Mode). 🔐✨
-⚡ Features
+### ⚡ Features
 
-    🏛 Caesar Cipher: Shifts each letter of your message by a number of positions in the alphabet.
-    🔑 XOR Cipher: Encrypts your message using an XOR operation with a key.
-    🛡 AES-128 Encryption: Uses the AES-128 algorithm with Cipher Block Chaining (CBC) mode for secure encryption.
-    🎨 Colored Output: Displays a cool ASCII art logo in blue at the start using the colored crate.
+-🏛 **Caesar Cipher**: Shifts each letter of your message by a number of positions in the alphabet.
 
-🎯 How It Works
+-🔑 **XOR Cipher**: Encrypts your message using an XOR operation with a key.
 
-    📝 The tool prompts you to enter a message.
-    It encrypts the message using:
-        Caesar Cipher with a default shift of 3.
-        XOR Cipher with a default key of 42.
-        AES-128 Encryption using a predefined 128-bit key and initialization vector (IV).
-    🔐 Outputs the encrypted message for each method in the terminal.
+-🛡 **AES-128 Encryption**: Uses the AES-128 algorithm with Cipher Block Chaining (CBC) mode for secure encryption.
 
-🚀 Getting Started
+-🎨 **Colored Output**: Displays a cool ASCII art logo in blue at the start using the colored crate.
+
+### 🎯 How It Works
+
+1. 📝 The tool prompts you to enter a message.
+2. It encrypts the message using:
+
+   **-Caesar Cipher** with a default shift of 3.
+
+   **-XOR Cipher** with a default key of 42.
+
+   **-AES-128 Encryption** using a predefined 128-bit key and initialization vector (IV).
+4. 🔐 Outputs the encrypted message for each method in the terminal.
+
+### 🚀 Getting Started
 Prerequisites
 
-    Make sure you have Rust installed on your system.
+    Make sure you have installed on your system.
 
 Installation
 
@@ -79,12 +85,12 @@ bash
     XOR Encrypted (key 42):  ...
     AES Encrypted (Base64): ...
 
-📂 Project Structure
+### 📂 Project Structure
 
     src/main.rs: The main program that handles user input and encryption logic.
     Cargo.toml: Contains the project's dependencies like colored, aes, base64, block-modes, and generic-array.
 
-📦 Dependencies
+### 📦 Dependencies
 
     🔐 aes: For AES encryption.
     🧬 base64: To encode the AES-encrypted message in Base64 format.
@@ -92,14 +98,14 @@ bash
     🎨 colored: For displaying colored ASCII art in the terminal.
     🧮 generic-array: For managing fixed-size arrays used in encryption.
 
-💡 Contributing
+### 💡 Contributing
 
 Contributions are welcome! Feel free to open issues for suggestions or create pull requests to improve the project.
 
-📄 License
+### 📄 License
 
 This project is licensed under the Apache-2.0 License. Check out the LICENSE file for details.
 
-
+-------------------------------------------------------------------------------------------
 
 Made with 💖 in Rust!
