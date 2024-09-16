@@ -19,6 +19,10 @@ fn main() {
  | |___| | | | (__| |  | |_| | |_) | || (_) | | |_____| |__| |_| | |___ 
  |_____|_| |_|\___|_|   \__, | .__/ \__\___/|_|       |_____\___/|_____|
                         |___/|_|                                         
+
+[+] Tool that automatically ecrypt message, Written in Rust [+]
+[+] Subscribe to my channel youtube.com/@YTsight
+[+] HAVE FUN WITH MY TOOL :) 
 "#;
 
     println!("{}", ascii_art.blue());
