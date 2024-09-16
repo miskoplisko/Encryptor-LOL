@@ -26,15 +26,15 @@ Installation
 
     Clone the repository to your local machine:
 
-    bash
+bash
 
-git clone https://github.com/your-username/encryptor-lol.git
+    git clone https://github.com/miskoplisko/encryptor-lol.git
 
 Navigate to the project folder:
 
 bash
 
-cd encryptor-lol
+    cd encryptor-lol
 
 Build the project with Cargo:
 
@@ -48,20 +48,22 @@ To run the program, simply execute:
 
 bash
 
-cargo run
+    cargo run 
 
 After running, you'll see the following cool ASCII art in blue and a prompt to enter your message:
 
 text
 
-  _____                             _                  _     ___  _     
- | ____|_ __   ___ _ __ _   _ _ __ | |_ ___  _ __     | |   / _ \| |    
- |  _| | '_ \ / __| '__| | | | '_ \| __/ _ \| '__|____| |  | | | | |    
- | |___| | | | (__| |  | |_| | |_) | || (_) | | |_____| |__| |_| | |___ 
- |_____|_| |_|\___|_|   \__, | .__/ \__\___/|_|       |_____\___/|_____|
-                        |___/|_|                                         
-
-Enter the message you want to encrypt:
+       _____                             _                  _     ___  _     
+      | ____|_ __   ___ _ __ _   _ _ __ | |_ ___  _ __     | |   / _ \| |    
+      |  _| | '_ \ / __| '__| | | | '_ \| __/ _ \| '__|____| |  | | | | |    
+      | |___| | | | (__| |  | |_| | |_) | || (_) | | |_____| |__| |_| | |___ 
+      |_____|_| |_|\___|_|   \__, | .__/ \__\___/|_|       |_____\___/|_____|
+                             |___/|_|                                         
+    [+] Tool that automatically ecrypt message, Written in Rust [+]
+    [+] Subscribe to my channel youtube.com/@YTsight
+    [+] HAVE FUN WITH MY TOOL :) 
+    Enter the message you want to encrypt:
 
 Example Output
 
@@ -69,13 +71,13 @@ Once you enter a message, the tool will encrypt it using the three methods and p
 
 bash
 
-Enter the message you want to encrypt:
-Hello, Rust!
+    Enter the message you want to encrypt:
+    Hello, Rust!
 
-Original plaintext: Hello, Rust!
-Caesar Encrypted (shift 3): Khoor, Uxvw!
-XOR Encrypted (key 42):  ...
-AES Encrypted (Base64): ...
+    Original plaintext: Hello, Rust!
+    Caesar Encrypted (shift 3): Khoor, Uxvw!
+    XOR Encrypted (key 42):  ...
+    AES Encrypted (Base64): ...
 
 📂 Project Structure
 
@@ -93,11 +95,11 @@ AES Encrypted (Base64): ...
 💡 Contributing
 
 Contributions are welcome! Feel free to open issues for suggestions or create pull requests to improve the project.
+
 📄 License
 
-This project is licensed under the MIT License. Check out the LICENSE file for details.
-💬 Contact
+This project is licensed under the Apache-2.0 License. Check out the LICENSE file for details.
 
-If you have any questions, feel free to reach out by opening an issue. Let's make encryption fun! 😎🔐
+
 
 Made with 💖 in Rust!
