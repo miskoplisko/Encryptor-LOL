@@ -1,6 +1,12 @@
 # 🔒 Encryptor-LOL
 Encryptor-LOL is a simple, fun command-line tool written in Rust that encrypts your messages using three different encryption methods: Caesar Cipher, XOR Cipher, and AES-128 (CBC Mode). 🔐✨
 
+### YouTube Tutorial:
+
+https://www.youtube.com/watch?v=xCkovNOh1VA
+[![Watch the video](https://img.youtube.com/vi/xCkovNOh1VA/maxresdefault.jpg)](https://www.youtube.com/watch?v=xCkovNOh1VA)
+
+
 ### ⚡ Features
 
 -🏛 **Caesar Cipher**: Shifts each letter of your message by a number of positions in the alphabet.
